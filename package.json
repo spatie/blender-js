@@ -1,0 +1,37 @@
+{
+  "name": "blender.js",
+  "version": "1.0.0",
+  "description": "Bmender JavaScript framework",
+  "main": "blender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willemvb/blender.js.git"
+  },
+  "keywords": [
+    "spatie",
+    "blender",
+    "javascript"
+  ],
+  "author": "Willem Van Bockstal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spatie-custom/blender.js/issues"
+  },
+  "homepage": "https://github.com/willemvb/blender.js",
+  "dependencies": {
+    "autosize": "^3.0.8",
+    "blueimp-file-upload": "^9.10.5",
+    "datatables": "^1.10.7",
+    "google-maps": "^3.1.0",
+    "jquery": "^2.1.4",
+    "jquery-confirm": "^1.5.1",
+    "jquery-datetimepicker": "git+https://github.com/xdan/datetimepicker.git#2.4.5",
+    "jquery-ui": "^1.10.5",
+    "jquery.mousewheel": "^3.1.9",
+    "select2": "^4.0.0",
+    "sisyphus.js": "git+https://github.com/simsalabim/sisyphus.git#master"
+  }
+}
