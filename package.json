@@ -1,14 +1,14 @@
 {
   "name": "blender.js",
   "version": "1.0.0",
-  "description": "Bmender JavaScript framework",
+  "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/willemvb/blender.js.git"
+    "url": "https://github.com/spatie-custom/blender.js.git"
   },
   "keywords": [
     "spatie",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/spatie-custom/blender.js/issues"
   },
-  "homepage": "https://github.com/willemvb/blender.js",
+  "homepage": "https://github.com/spatie-custom/blender.js",
   "dependencies": {
     "autosize": "^3.0.8",
     "blueimp-file-upload": "^9.10.5",
