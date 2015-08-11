@@ -3,7 +3,6 @@ var translate = require("./interface.translations.js");
 var GoogleMapsLoader = require('google-maps'); // only for common js environments
 
 
-
 /**
  *
  * Modified by SPATIE.
@@ -60,8 +59,8 @@ $.fn.gMapsLatLonPicker = (function () {
         _self.vars.map.panTo(position);
 
         $(_self.vars.cssID + "[data-locationpicker-zoom]").val(_self.vars.map.getZoom());
-        $(_self.vars.cssID + "[data-locationpicker-lon]").val(position.lng());
-        $(_self.vars.cssID + "[data-locationpicker-lon]").val(position.lat());
+        $(_self.vars.cssID + "[data-locationpicker-lat]").val(position.lat());
+        $(_self.vars.cssID + "[data-locationpicker-lng]").val(position.lng());
 
         $(_self.vars.cssID).trigger("location_changed", $(_self.vars.cssID));
 
@@ -155,8 +154,8 @@ $.fn.gMapsLatLonPicker = (function () {
             _self.vars.ID = $(object).attr("id");
             _self.vars.cssID = "#" + _self.vars.ID + " ";
 
-            _self.params.defLat = $(_self.vars.cssID + "[data-locationpicker-lon]").val() ? $(_self.vars.cssID + "[data-locationpicker-lat]").val() : _self.params.defLat;
-            _self.params.defLng = $(_self.vars.cssID + "[data-locationpicker-lon]").val() ? $(_self.vars.cssID + "[data-locationpicker-lon]").val() : _self.params.defLng;
+            _self.params.defLat = $(_self.vars.cssID + "[data-locationpicker-lat]").val() ? $(_self.vars.cssID + "[data-locationpicker-lat]").val() : _self.params.defLat;
+            _self.params.defLng = $(_self.vars.cssID + "[data-locationpicker-lng]").val() ? $(_self.vars.cssID + "[data-locationpicker-lng]").val() : _self.params.defLng;
             _self.params.defZoom = $(_self.vars.cssID + "[data-locationpicker-zoom]").val() ? parseInt($(_self.vars.cssID + "[data-locationpicker-zoom]").val()) : _self.params.defZoom;
 
             _self.vars.LATLNG = new google.maps.LatLng(_self.params.defLat, _self.params.defLng);
@@ -195,7 +194,7 @@ $.fn.gMapsLatLonPicker = (function () {
             // Update location and zoom values based on input field's value
             $(_self.vars.cssID + "[data-locationpicker-update]").bind("click", function () {
                 var lat = $(_self.vars.cssID + "[data-locationpicker-lat]").val();
-                var lng = $(_self.vars.cssID + "[data-locationpicker-lon]").val();
+                var lng = $(_self.vars.cssID + "[data-locationpicker-lng]").val();
                 var latlng = new google.maps.LatLng(lat, lng);
                 _self.vars.map.setZoom(parseInt($(_self.vars.cssID + "[data-locationpicker-zoom]").val()));
                 setPosition(latlng);
@@ -207,11 +206,17 @@ $.fn.gMapsLatLonPicker = (function () {
             });
 
             //Seach by enter
-            $(_self.vars.cssID + "[data-locationpicker-search]").on('keyup', function (e) {
-                if (e.keyCode == 13) {
-                    performSearch($(_self.vars.cssID + "[data-locationpicker-search]").val(), false);
-                }
-            });
+            $(_self.vars.cssID + "[data-locationpicker-search]")
+                .on('keydown keyup keypress', function (e) {
+                    if (e.keyCode === 13) {
+                        e.preventDefault();
+                    }
+                })
+                .on('keyup', function (e) {
+                    if (e.keyCode === 13) {
+                        performSearch($(_self.vars.cssID + "[data-locationpicker-search]").val(), false);
+                    }
+                });
 
             // Search function by gllp_perform_search listener
             $(document).bind("gllp_perform_search", function (event, object) {
@@ -221,7 +226,7 @@ $.fn.gMapsLatLonPicker = (function () {
             // Zoom function triggered by gllp_perform_zoom listener
             $(document).bind("gllp_update_fields", function (event) {
                 var lat = $(_self.vars.cssID + "[data-locationpicker-lat]").val();
-                var lng = $(_self.vars.cssID + "[data-locationpicker-lon]").val();
+                var lng = $(_self.vars.cssID + "[data-locationpicker-lng]").val();
                 var latlng = new google.maps.LatLng(lat, lng);
                 _self.vars.map.setZoom(parseInt($(_self.vars.cssID + "[data-locationpicker-zoom]").val()));
                 setPosition(latlng);
