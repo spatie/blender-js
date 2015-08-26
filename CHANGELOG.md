@@ -2,6 +2,11 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.0.2 - 2015-08-26
+
+### Changed
+- Datepicker: Changed date format to `d/m/Y`
+
 ## 1.0.1 - 2015-08-11
 
 ### Fixed
