@@ -2,7 +2,7 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
-## 1.0.1 - 2015-09-03
+## 1.0.2 - 2015-09-03
 
 - Locationpicker: Disabled scrollwheel zoom
 
