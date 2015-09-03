@@ -32,7 +32,8 @@ $.fn.gMapsLatLonPicker = (function () {
             mapTypeControl: false,
             disableDoubleClickZoom: true,
             zoomControlOptions: true,
-            streetViewControl: true
+            streetViewControl: true,
+            scrollwheel: false
         },
         strings: {
             markerText: translate("locationpicker.markerText"),
