@@ -16,14 +16,18 @@ var ß = require('./../blender.js');
     });
 }
 
-$('[data-redactor], [data-editor]').each(() => {
-    var $textarea = $(this);
+$(function() {
+    $('[data-redactor], [data-editor]').each((i, el) => {
+        var $textarea = $(el);
+        $textarea.css('color', 'red');
+        console.log($textarea);
 
-    if ($textarea.data('redactor')) {
-        console.warn('[data-redactor] is depricated and is to be replaced by [data-editor]');
-    }
+        if ($textarea.data('redactor')) {
+            console.warn('[data-redactor] is depricated and is to be replaced by [data-editor]');
+        }
 
-    ß.editor($textarea);
+        ß.editor($textarea);
+    });
 });
 
 module.exports = ß.editor;
