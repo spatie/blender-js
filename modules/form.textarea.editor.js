@@ -19,8 +19,6 @@ var ß = require('./../blender.js');
 $(function() {
     $('[data-redactor], [data-editor]').each((i, el) => {
         var $textarea = $(el);
-        $textarea.css('color', 'red');
-        console.log($textarea);
 
         if ($textarea.data('redactor')) {
             console.warn('[data-redactor] is depricated and is to be replaced by [data-editor]');
