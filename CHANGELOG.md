@@ -5,7 +5,7 @@ All Notable changes to `blender.js` will be documented in this file
 ## 1.2.0 - 2015-10-13
 
 ### Added
-- Added: Editor (previously redactor) can now be initialized via ß
+- Editor (previously redactor): Can now be initialized via ß
 
 ## 1.1.0 - 2015-10-12
 
