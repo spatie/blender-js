@@ -2,8 +2,14 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.1.0 - 2015-10-12
+
+### Added
+- Autosave: Warning can now be added via a public method on the DOM node
+
 ## 1.0.2 - 2015-09-03
 
+### Fixed
 - Locationpicker: Disabled scrollwheel zoom
 
 ## 1.0.1 - 2015-08-26
