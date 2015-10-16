@@ -17,7 +17,7 @@ var ß = require('./../blender.js');
 }
 
 $(function() {
-    $('[data-redactor], [data-editor]').each((i, el) => {
+    $('[data-redactor], [data-editor]').each(function(i, el) {
         var $textarea = $(el);
 
         if ($textarea.data('redactor')) {
