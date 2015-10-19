@@ -12,7 +12,7 @@ require("./../locales/nl.js");
 
     if (!lang || !string) {
         console.warn(ß.lang.toUpperCase() + ' translations missing for [' + key + ']');
-        return '[' + key + ']';ß.translations = {} ;
+        return '[' + key + ']';
     }
 
     return (string);
