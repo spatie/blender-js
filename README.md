@@ -4,20 +4,18 @@
 
 These are the JavaScript files used by Blender CMS.
 
-Spatie is webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
-
 ## Install
 
 This NPM package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on NPM.
 In order to install it via NPM you must specify this extra repository in `package.json`:
 
 ```json
-"dependencies": { "blender.js": "git+https://github.com/spatie-custom/blender.js.git#1.0.0" }
+"dependencies": { "blender.js": "spatie-custom/blender.js#1.0.0" }
 ```
 
 Or you can install the package directly via NPM:
 ``` bash
-$ npm i git+https://github.com/spatie-custom/blender.js.git#1.0.0
+$ npm i spatie-custom/blender.js#1.0.0
 ```
 
 ## Usage
