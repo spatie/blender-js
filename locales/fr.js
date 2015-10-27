@@ -1,6 +1,6 @@
 var ß = require("../blender.js");
 
-ß.translations.nl = {
+ß.translations.fr = {
     "confirm": {
         "text": "Bent u zeker?",
         "yes": "Oui",
