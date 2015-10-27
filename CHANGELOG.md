@@ -2,6 +2,11 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.2 - 2015-10-27
+
+### Added
+- Updated language strings
+
 ## 1.2.1 - 2015-10-16
 
 ### Fixed
