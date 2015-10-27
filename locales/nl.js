@@ -33,6 +33,10 @@ var ß = require("../blender.js");
         markerText: "Sleep om te verplaatsen",
         errorEmpty: "Voor dit adres konden er geen coordinaten gevonden worden",
         errorNoResults: "Voor dit adres konden er geen coordinaten gevonden worden"
+    },
+    "select": {
+        select: "Selecteer...",
+        noResults: "Geen resultaten gevonden"
     }
 }
 
