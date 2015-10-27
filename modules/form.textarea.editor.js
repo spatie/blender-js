@@ -1,14 +1,15 @@
 var ß = require('./../blender.js');
 
 ß.editor = function($textarea) {
-    var apiUrl = '/blender/api/media?redactor=true';
+
+    var apiUrl = $textarea.data('redactor-medialibrary-url')
 
     function triggerChange() {
         $textarea.trigger('change');
     }
 
     $textarea.redactor({
-        imageUpload : apiUrl,
+        imageUpload: apiUrl + '&redactor=true',
         imageManagerJson: apiUrl,
         plugins: ['imagemanager', 'video'],
         changeCallback: triggerChange,
