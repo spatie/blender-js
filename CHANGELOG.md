@@ -2,6 +2,11 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.3 - 2015-10-27
+
+### Fixed
+- Fixed editor image upload
+
 ## 1.2.2 - 2015-10-27
 
 ### Added
