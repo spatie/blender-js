@@ -33,6 +33,10 @@ var ß = require("../blender.js");
     markerText: "Drag this Marker",
     errorEmpty: "Couldn't find coordinates for this place",
     errorNoResults: "Couldn't find coordinates for this place"
+  },
+  "select": {
+    select: "Select...",
+    noResults: "No results found"
   }
 }
 
