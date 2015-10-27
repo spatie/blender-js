@@ -2,11 +2,15 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.7 - 2015-10-27
+
+### Fixed
+- fix fr translations redux encore une fois
+
 ## 1.2.6 - 2015-10-27
 
 ### Fixed
 - fix fr translations redux
-
 
 ## 1.2.5 - 2015-10-27
 
