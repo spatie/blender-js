@@ -4,6 +4,7 @@ var ß = require("./../blender.js");
 ß.translations = {} ;
 require("./../locales/en.js");
 require("./../locales/nl.js");
+require("./../locales/fr.js");
 
 // Translate object
 ß.translate = function (key) {
