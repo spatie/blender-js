@@ -2,7 +2,7 @@ var ß = require("../blender.js");
 
 ß.translations.fr = {
     "confirm": {
-        "text": "Bent u zeker?",
+        "text": "Etes-vous sûr?",
         "yes": "Oui",
         "no": "Non",
     },
