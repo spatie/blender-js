@@ -4,18 +4,20 @@
 
 These are the JavaScript files used by Blender CMS.
 
-## Install
+## Installation
 
-This NPM package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on NPM.
-In order to install it via NPM you must specify this extra repository in `package.json`:
+This package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on npm.
+In order to install it via npm you have to go through our registry:
 
-```json
-"dependencies": { "blender.js": "spatie-custom/blender.js#1.0.0" }
+```bash
+npm set registry https://npm.spatie.be
+npm set ca null
 ```
 
-Or you can install the package directly via NPM:
-``` bash
-$ npm i spatie-custom/blender.js#1.0.0
+Or you can require the package straight from GitHub:
+
+```bash
+npm install spatie-custom/blender.js
 ```
 
 ## Usage

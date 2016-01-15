@@ -2,6 +2,11 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.8 - 2016-01-15
+
+### Changed
+- Install jquery-datetimepicker and sisyphus.js from npm
+
 ## 1.2.7 - 2015-10-27
 
 ### Fixed

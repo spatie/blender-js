@@ -1,6 +1,6 @@
 {
   "name": "blender.js",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
@@ -28,10 +28,10 @@
     "google-maps": "^3.1.0",
     "jquery": "^2.1.4",
     "jquery-confirm": "^1.5.1",
-    "jquery-datetimepicker": "git+https://github.com/xdan/datetimepicker.git#2.4.5",
+    "jquery-datetimepicker": "^2.4.0",
     "jquery-ui": "^1.10.5",
     "jquery.mousewheel": "^3.1.9",
     "select2": "^4.0.0",
-    "sisyphus.js": "git+https://github.com/simsalabim/sisyphus.git#master"
+    "sisyphus.js": "^1.1.2"
   }
 }
