@@ -9,6 +9,7 @@ var ß = require('./../blender.js');
     }
 
     $textarea.redactor({
+        pastePlainText: true,
         imageUpload: apiUrl + '&redactor=true',
         imageManagerJson: apiUrl,
         plugins: ['imagemanager', 'video'],
