@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.10 - 2016-01-27
+- fix french translation
+
 ## 1.2.9 - 2016-01-22
 - `pastePlainText` by default for textarea
 
