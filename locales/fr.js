@@ -9,7 +9,7 @@ var ß = require("../blender.js");
     "dataTables": {
         "lengthMenu": "Afficher _MENU_ par page",
         "zeroRecords": "Aucun résultat",
-        "info": "Nobre: _TOTAL_",
+        "info": "Nombre: _TOTAL_",
         "infoEmpty": "Pas d'objects",
         "infoFiltered": "des _MAX_",
         "search": "_INPUT_",
