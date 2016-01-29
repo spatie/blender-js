@@ -2,6 +2,10 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.11 - 2016-01-29
+- set available editor styles
+
+
 ## 1.2.10 - 2016-01-27
 - fix french translation
 
