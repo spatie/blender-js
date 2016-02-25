@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.12 - 2016-02-25
+- fix datetimepicker dependency
+
 ## 1.2.11 - 2016-01-29
 - set available editor styles
 

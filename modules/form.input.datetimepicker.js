@@ -2,7 +2,8 @@
 
 var $ = require('jquery');
 var ß = require('./../blender.js');
-require('jquery-datetimepicker');
+require('jquery-datetimepicker/build/jquery.datetimepicker.full'); //temp fix
+
 
 $('[data-datetimepicker]').datetimepicker({
     timepicker: false,

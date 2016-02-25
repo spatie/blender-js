@@ -1,6 +1,6 @@
 {
   "name": "blender.js",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "google-maps": "^3.1.0",
     "jquery": "^2.1.4",
     "jquery-confirm": "^1.5.1",
-    "jquery-datetimepicker": "^2.4.0",
+    "jquery-datetimepicker": "^2.5.1",
     "jquery-ui": "^1.10.5",
     "jquery.mousewheel": "^3.1.9",
     "select2": "^4.0.0",
