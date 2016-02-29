@@ -4,6 +4,7 @@ var $ = require('jquery');
 var ß = require('./../blender.js');
 require('jquery-datetimepicker/build/jquery.datetimepicker.full'); //temp fix
 
+$.datetimepicker.setLocale(ß.lang);
 
 $('[data-datetimepicker]').datetimepicker({
     timepicker: false,
