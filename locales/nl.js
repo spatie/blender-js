@@ -31,8 +31,8 @@ var ß = require("../blender.js");
     },
     "locationpicker": {
         markerText: "Sleep om te verplaatsen",
-        errorEmpty: "Voor dit adres konden er geen coordinaten gevonden worden",
-        errorNoResults: "Voor dit adres konden er geen coordinaten gevonden worden"
+        errorEmpty: "Voor dit adres konden er geen coördinaten gevonden worden",
+        errorNoResults: "Voor dit adres konden er geen coördinaten gevonden worden"
     },
     "select": {
         select: "Selecteer...",
