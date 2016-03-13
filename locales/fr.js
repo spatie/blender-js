@@ -31,7 +31,7 @@ var ß = require("../blender.js");
     },
     "locationpicker": {
         markerText: "Glisser pour déplacer",
-        errorEmpty: "oordonnées pour cette adresse n'a pu être trouvée",
+        errorEmpty: "Coordonnées pour cette adresse n'a pu être trouvé",
         errorNoResults: "Coordonnées pour cette adresse n'a pu être trouvé"
     },
     "select": {
