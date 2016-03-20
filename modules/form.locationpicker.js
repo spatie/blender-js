@@ -38,7 +38,7 @@ $.fn.gMapsLatLonPicker = (function () {
         strings: {
             markerText: translate("locationpicker.markerText"),
             error_empty_field: translate("locationpicker.errorEmpty"),
-            error_no_results: translate("locationpicker.erroNoResults")
+            error_no_results: translate("locationpicker.errorNoResults")
         }
     };
 
