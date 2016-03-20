@@ -8,7 +8,9 @@ $.fn.sortableRows = function (options) {
         var table = $(this);
         table.addClass('-sortable');
 
-        $('tbody', table).sortable({
+        var sortableElem = $('tbody', table);
+
+        sortableElem.sortable({
             helper: preserveWidthOnDrag,
             axis: 'y',
             cancel: '[data-sortable=disabled]',
@@ -20,7 +22,9 @@ $.fn.sortableRows = function (options) {
                 //serialize whole table
                 var data = {
                     '_method': method,
-                    'ids': rowsToArray(table)
+                    'ids': sortableElem.sortable('toArray', {
+                        attribute: 'data-row-id'
+                    });
                 }
 
                 $.ajax({
@@ -31,6 +35,7 @@ $.fn.sortableRows = function (options) {
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
                         console.error("The following error occured: " + textStatus, errorThrown);
+                        sortableElement.sortable('cancel');
                     }
                 });
             }
@@ -42,14 +47,6 @@ $.fn.sortableRows = function (options) {
     return this;
 
     //----------------------------shared functions
-    function rowsToArray(table) {
-        var rows = new Array();
-        $('tbody tr', table).each(function () {
-            rows.push($(this).data('row-id'));
-        });
-        return rows;
-    }
-
     function preserveWidthOnDrag(e, ui) {
         ui.children().each(function () {
             $(this).width($(this).width());
@@ -61,7 +58,6 @@ $.fn.sortableRows = function (options) {
 
 //initialization
 $("table[data-sortable]").sortableRows();
-
 
 
 
