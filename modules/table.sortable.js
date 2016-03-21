@@ -24,7 +24,7 @@ $.fn.sortableRows = function (options) {
                     '_method': method,
                     'ids': sortableElem.sortable('toArray', {
                         attribute: 'data-row-id'
-                    });
+                    })
                 }
 
                 $.ajax({
