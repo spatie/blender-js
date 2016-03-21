@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.14 - 2016-03-21
+- clean up code in sortable module
+
 ## 1.2.13 - 2016-02-29
 - fix datetimepicker language
 
