@@ -58,10 +58,3 @@ $.fn.sortableRows = function (options) {
 
 //initialization
 $("table[data-sortable]").sortableRows();
-
-
-
-
-
-
-
