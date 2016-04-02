@@ -199,7 +199,7 @@ var translate = require("./interface.translations.js");
                     axis: 'y',
                     cancel:  '.dataTables_empty',
                     containment: "parent",
-                    stop: function () {contenteditable
+                    stop: function(){
                         updateTextarea(parts);
                     },
                     handle: "td:not('.-edit')" //no drag behaviour on these cells
