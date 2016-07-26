@@ -2,12 +2,14 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.2.15 - 2016-07-26
+- update jquery-ui dependency
+
 ## 1.2.14 - 2016-03-21
 - clean up code in sortable module
 
 ## 1.2.13 - 2016-02-29
 - fix datetimepicker language
-
 
 ## 1.2.12 - 2016-02-25
 - fix datetimepicker dependency

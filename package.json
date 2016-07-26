@@ -1,6 +1,6 @@
 {
   "name": "blender.js",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "jquery": "^2.1.4",
     "jquery-confirm": "^1.5.1",
     "jquery-datetimepicker": "^2.5.1",
-    "jquery-ui": "^1.10.5",
+    "jquery-ui": "^1.11.0",
     "jquery.mousewheel": "^3.1.9",
     "select2": "^4.0.0",
     "sisyphus.js": "^1.1.2"
