@@ -16,7 +16,8 @@ var ß = require("../blender.js");
         "searchPlaceholder": "Filter..."
     },
     "sisyphus": {
-        "revert": "Terug naar laatst opgeslagen versie",
+        "revert": "Reset",
+        "save": "Bewaar",
         "warn": "Deze pagina bevat nog onbewaarde gegevens."
     },
     "parts": {

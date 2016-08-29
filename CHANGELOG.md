@@ -2,6 +2,10 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.3.0 - 2016-08-29
+- update autosave
+- add tabs
+
 ## 1.2.15 - 2016-07-26
 - update jquery-ui dependency
 
