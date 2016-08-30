@@ -1,4 +1,5 @@
 var $ = require('jquery');
+require("jquery-ui/ui/widgets/autocomplete");
 require("jquery-ui/ui/widgets/sortable");
 require("jquery-confirm");
 require('datatables');
