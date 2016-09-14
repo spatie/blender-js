@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.3.1 - 2016-09-14
+- changed autosave buttons
+
 ## 1.3.1 - 2016-08-30
 - fixed parts
 
