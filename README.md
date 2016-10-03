@@ -22,7 +22,7 @@ npm install spatie-custom/blender.js
 
 ## Usage
 
-Include one or more files in your app.js, and build with *Laravel Elixir* and *Browserify* afterwards.
+Include one or more files in your app.js, and build with *webpack* afterwards.
 
 ``` js
 require("blender.js/modules/ajax.csrf");
