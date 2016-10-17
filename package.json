@@ -1,6 +1,6 @@
 {
   "name": "blender.js",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "blueimp-file-upload": "^9.10.5",
     "datatables": "^1.10.7",
     "google-maps": "^3.1.0",
-    "jquery": "^2.1.4",
+    "jquery": "^2.1.4 || ^3.0.0",
     "jquery-confirm": "^1.5.1",
     "jquery-datetimepicker": "^2.5.1",
     "jquery-ui": "^1.11.0",
