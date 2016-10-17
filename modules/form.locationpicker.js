@@ -240,7 +240,7 @@ $.fn.gMapsLatLonPicker = (function () {
 });
 
 $(document).ready(function () {
-    if($("[data-locationpicker]").size() > 0){
+    if($("[data-locationpicker]").length > 0){
         GoogleMapsLoader.load(function(google) {
             $("[data-locationpicker]").each(function () {
                 $(document).gMapsLatLonPicker().init( $(this) );

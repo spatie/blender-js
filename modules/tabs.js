@@ -3,7 +3,7 @@ require("jquery-ui/ui/widgets/tabs");
 
 var $tabs = $('[data-tabs]');
 
-if ($tabs.size() > 0) {
+if ($tabs.length > 0) {
     var key = 'tab-on-' + $tabs.parents('form').attr('action');
     var dataStore = window.localStorage;
     var previousTab = 0;

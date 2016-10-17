@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.3.4 - 2016-10-17
+- JQuery 3.0 compat
+
 ## 1.3.1 - 2016-09-14
 - changed autosave buttons
 
@@ -100,4 +103,3 @@ All Notable changes to `blender.js` will be documented in this file
 
 ### Added
 - Initial release
-
