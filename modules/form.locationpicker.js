@@ -241,6 +241,11 @@ $.fn.gMapsLatLonPicker = (function () {
 
 $(document).ready(function () {
     if($("[data-locationpicker]").length > 0){
+
+        if($("[data-locationpicker]").first().data('api-key')!=''){
+            GoogleMapsLoader.KEY = $("[data-locationpicker]").first().data('api-key') ;
+        }
+
         GoogleMapsLoader.load(function(google) {
             $("[data-locationpicker]").each(function () {
                 $(document).gMapsLatLonPicker().init( $(this) );

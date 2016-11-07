@@ -2,6 +2,9 @@
 
 All Notable changes to `blender.js` will be documented in this file
 
+## 1.4 - 2016-11-7
+- Allow API key for Google Maps
+
 ## 1.3.4 - 2016-10-17
 - JQuery 3.0 compat
 
