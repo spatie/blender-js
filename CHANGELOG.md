@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `blender.js` will be documented in this file
+All Notable changes to `blender-js` will be documented in this file
 
 ## 1.4 - 2016-11-7
 - Allow API key for Google Maps

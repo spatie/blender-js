@@ -1,4 +1,4 @@
-# blender.js
+# blender-js
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
@@ -6,35 +6,29 @@ These are the JavaScript files used by Blender CMS.
 
 ## Installation
 
-This package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on npm.
-In order to install it via npm you have to go through our registry:
+This package is custom built for [Blender](https://github.com/spatie/blender) projects.
+
+install via yarn
 
 ```bash
-npm set registry https://npm.spatie.be
-npm set ca null
-```
-
-Or you can require the package straight from GitHub:
-
-```bash
-npm install spatie-custom/blender.js
+yarn add @spatie/blender-js
 ```
 
 ## Usage
 
-Include one or more files in your app.js, and build with *webpack* afterwards.
+Include one or more files in your app.js.
 
 ``` js
-require("blender.js/modules/ajax.csrf");
-require("blender.js/modules/form.autosave");
-require("blender.js/modules/form.input.datetimepicker");
-require("blender.js/modules/form.select");
-require("blender.js/modules/form.textarea.autosize");
-require("blender.js/modules/form.textarea.parts");
-require("blender.js/modules/form.locationpicker");
-require("blender.js/modules/interface.confirm");
-require("blender.js/modules/table.datatables");
-require("blender.js/modules/table.sortable");
+require("@spatie/blender-js/modules/ajax.csrf");
+require("@spatie/blender-js/modules/form.autosave");
+require("@spatie/blender-js/modules/form.input.datetimepicker");
+require("@spatie/blender-js/modules/form.select");
+require("@spatie/blender-js/modules/form.textarea.autosize");
+require("@spatie/blender-js/modules/form.textarea.parts");
+require("@spatie/blender-js/modules/form.locationpicker");
+require("@spatie/blender-js/modules/interface.confirm");
+require("@spatie/blender-js/modules/table.datatables");
+require("@spatie/blender-js/modules/table.sortable");
 ```
 
 ## Change log
