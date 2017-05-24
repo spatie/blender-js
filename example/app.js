@@ -1,8 +1,8 @@
 import './bootstrap';
 import Vue from 'vue';
-import { TextEditor } from '../src';
+import blenderJs from '../src';
 
-Vue.component('text-editor', TextEditor);
+Vue.use(blenderJs);
 
 new Vue({
     el: '#app',

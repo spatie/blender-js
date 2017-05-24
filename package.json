@@ -23,6 +23,7 @@
   "homepage": "https://github.com/spatie/blender-js",
   "dependencies": {
     "jquery": "^3.0.0",
+    "pikaday": "^1.5.1",
     "vue": "^2.3.3"
   },
   "devDependencies": {

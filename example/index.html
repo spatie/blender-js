@@ -8,7 +8,19 @@
                 <h1>Blender JS</h1>
                 <section>
                     <h2>Text Editor</h2>
-                    <text-editor name="text" value="Hi!" media-library-url="/api/media"></text-editor>
+                    <text-editor
+                        name="text"
+                        value="Hi!"
+                        media-library-url="/api/media"
+                        :options="{ formatting: ['p', 'h1', 'h2'] }"
+                    ></text-editor>
+                </section>
+                <section>
+                    <h2>Date Picker</h2>
+                    <date-picker
+                        value="1992-02-01"
+                        format="YYYY-MM-DD"
+                    ></date-picker>
                 </section>
             </div>
         </div>
