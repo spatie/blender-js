@@ -1,10 +1,10 @@
 {
   "name": "@spatie/blender-js",
-  "version": "1.4.0",
+  "version": "2.0.0-alpha.0",
   "description": "Blender JavaScript framework",
   "main": "blender.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example:serve": "webpack-dev-server --config ./example/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,16 +22,21 @@
   },
   "homepage": "https://github.com/spatie/blender-js",
   "dependencies": {
-    "autosize": "^3.0.8",
-    "blueimp-file-upload": "^9.10.5",
-    "datatables": "^1.10.7",
-    "google-maps": "^3.1.0",
-    "jquery": "^2.1.4 || ^3.0.0",
-    "jquery-confirm": "^1.5.1",
-    "jquery-datetimepicker": "^2.5.1",
-    "jquery-ui": "^1.11.0",
-    "jquery.mousewheel": "^3.1.9",
-    "select2": "^4.0.0",
-    "sisyphus.js": "^1.1.2"
+    "jquery": "^3.0.0",
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "@spatie/blender-css": "^4.0.3",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.2",
+    "style-loader": "^0.18.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
   }
 }
